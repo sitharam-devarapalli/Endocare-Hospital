@@ -1,0 +1,1351 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* header css  */
+.navbar {
+    background: #fff !important;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+
+.navbar-brand strong {
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #dc2626 !important;
+}
+
+.navbar-brand span {
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #6b7280 !important;
+    display: block;
+    margin-top: -3px;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000 !important;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #dc2626 !important;
+}
+
+
+.endocare-hospital-section-buttons {
+    background: #C62828;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 22px;
+    box-shadow: 0 8px 18px rgba(220, 38, 38, 0.25);
+    transition: 0.3s ease;
+}
+
+.endocare-hospital-section-logo {
+    width: 175px;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* body section css  */
+.endocare-badge {
+    font-size: 12px;
+    font-weight: 600;
+    color: #c62828;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #f9e9e9;
+    padding: 6px 14px;
+    border-radius: 25px;
+}
+
+.endocare-badge .dot {
+    width: 6px;
+    height: 6px;
+    background: #c62828;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.endocare-hero-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.2;
+}
+
+.endocare-hero-title span {
+    color: #C62828;
+}
+
+.endocare-hero-desc {
+    color: #000;
+    font-size: 16px;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+/* BUTTONS */
+.endocare-hero-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn-book {
+    display: flex;
+    gap: 10px;
+    margin: 7px 0;
+    font-size: 14px;
+    background: #C62828;
+    color: #fff;
+    padding: 12px 26px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn-book:hover {
+    background: #b71c1c;
+}
+
+.btn-call {
+    display: flex;
+    gap: 10px;
+    margin: 8px 0;
+    font-size: 14px;
+    border: 2px solid #C62828;
+    color: #C62828;
+    padding: 9px 26px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn-call:hover {
+    background: #C62828;
+    color: #fff;
+}
+
+/* TRUST SECTION */
+.endocare-trust {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.endocare-avatars {
+    display: flex;
+    align-items: center;
+}
+
+.endocare-avatars img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    margin-left: -14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.endocare-avatars img:first-child {
+    margin-left: 0;
+}
+
+.endocare-avatars img:hover {
+    transform: translateY(-4px);
+    z-index: 2;
+}
+
+.endocare-trust-text h6 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.endocare-trust-text p {
+    font-size: 14px;
+    color: #6c757d;
+    margin: 0;
+}
+
+/* RIGHT IMAGE */
+.endocare-image-wrapper {
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.endocare-image-wrapper img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.endocare-success-card {
+    position: absolute;
+    bottom: -20px;
+    left: -10%;
+    background: #fff;
+    padding: 12px 18px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.endocare-success-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.endocare-success-content img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.endocare-success-card small {
+    font-size: 12px;
+    color: #6c757d;
+    display: block;
+    line-height: 1;
+}
+
+.endocare-success-card h5 {
+    margin: 2px 0 0;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+
+/* footer css  */
+.endocare-hospital-footer-section {
+    background: #1a0505;
+    color: #ddd;
+    padding: 60px 0 25px;
+    position: relative;
+}
+
+.endocare-hospital-footer-logo img {
+    width: 175px;
+    height: 100%;
+}
+
+/* .endocare-hospital-footer-logo h5 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+} */
+
+.endocare-hospital-footer-logo span {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.endocare-hospital-footer-desc {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #ccc;
+}
+
+.endocare-hospital-footer-title {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.endocare-hospital-footer-links li {
+    margin-bottom: 8px;
+}
+
+.endocare-hospital-footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.endocare-hospital-footer-links a:hover {
+    color: #ff4d4d;
+    padding-left: 5px;
+}
+
+.endocare-hospital-footer-contact p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #ccc;
+}
+
+.endocare-hospital-footer-email {
+    color: #ff4d4d;
+    font-weight: 500;
+}
+
+.endocare-hospital-footer-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 25px 0;
+}
+
+.endocare-hospital-footer-bottom p {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.endocare-hospital-footer-policy {
+    font-size: 13px;
+    color: #aaa;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.endocare-hospital-footer-policy:hover {
+    color: #fff;
+}
+
+
+/* about section css  */
+.endocare-hospital-aboutus-image-wrapper {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    background-color: #fcf4f4;
+}
+
+.endocare-hospital-aboutus-image {
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.endocare-hospital-aboutus-subtitle {
+    font-size: 13px;
+    font-weight: 700;
+    color: #C62828;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.endocare-hospital-aboutus-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.endocare-hospital-aboutus-description {
+    font-size: 15px;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.endocare-hospital-aboutus-feature {
+    display: flex;
+    gap: 15px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    align-items: flex-start;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+    transition: 0.3s ease;
+}
+
+.endocare-hospital-aboutus-feature:hover {
+    transform: translateY(-3px);
+}
+
+.endocare-hospital-aboutus-icon {
+    width: 45px;
+    height: 45px;
+    background: #fbe9e7;
+    color: #C62828;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.endocare-hospital-aboutus-feature h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.endocare-hospital-aboutus-feature p {
+    font-size: 12px;
+    margin: 0;
+    color: #6c757d;
+}
+
+
+/* service section css  */
+.endocare-hospital-services-section {
+    background: #f5f6f8;
+}
+
+.endocare-hospital-services-subtitle {
+    font-size: 13px;
+    font-weight: 700;
+    color: #C62828;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.endocare-hospital-services-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.endocare-hospital-services-card {
+    background: #ffffff;
+    padding: 25px 15px;
+    border-radius: 14px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+    transition: 0.3s ease;
+    height: 100%;
+}
+
+.endocare-hospital-services-card:hover {
+    transform: translateY(-4px);
+}
+
+.endocare-hospital-services-icon {
+    width: 55px;
+    height: 55px;
+    margin: 0 auto 15px;
+    background: #fdecec;
+    color: #C62828;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.endocare-hospital-services-card-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.endocare-hospital-services-card-text {
+    font-size: 15px;
+    color: #495464;
+    margin: 0;
+    font-family: 'Noto Sans Telugu', 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.endocare-hospital-services-consultation {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.endocare-hospital-services-consult-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.endocare-hospital-services-consult-text {
+    font-size: 14px;
+    color: #6c757d;
+    margin: 0;
+}
+
+.endocare-hospital-services-consult-btn {
+    background: #C62828;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 22px;
+    box-shadow: 0 8px 18px rgba(220, 38, 38, 0.25);
+    transition: 0.3s ease;
+}
+
+.endocare-hospital-services-consult-btn:hover {
+    background: #b71c1c;
+}
+
+
+/* our teams section css  */
+.endocare-hospital-teams-section {
+    background: #fff;
+}
+
+.endocare-hospital-teams-image-wrapper {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    background: #ffffff;
+}
+
+.endocare-hospital-teams-image {
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.endocare-hospital-teams-experience-badge {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: #ffffff;
+    padding: 12px 18px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.endocare-hospital-teams-exp-number {
+    font-size: 18px;
+    font-weight: 700;
+    color: #C62828;
+    display: block;
+}
+
+.endocare-hospital-teams-exp-text {
+    font-size: 12px;
+    color: #6c757d;
+}
+
+.endocare-hospital-teams-subtitle {
+    font-size: 13px;
+    font-weight: 700;
+    color: #C62828;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.endocare-hospital-teams-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.endocare-hospital-teams-qualification {
+    font-size: 14px;
+    color: #C62828;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.endocare-hospital-teams-description {
+    font-size: 14px;
+    color: #495464;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.endocare-hospital-teams-info-box-totalsss {
+    display: flex;
+}
+
+.endocare-hospital-teams-info-box {
+    background: #f1f2f4;
+    padding: 25px;
+    border-radius: 18px;
+    gap: 20px;
+}
+
+.endocare-hospital-teams-info-icon {
+    color: #C62828;
+    font-size: 20px;
+}
+
+.endocare-hospital-teams-info-box h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #1e293b;
+}
+
+.endocare-hospital-teams-info-box p {
+    font-size: 12px;
+    color: #6b7280;
+    margin: 0;
+}
+
+.endocare-hospital-teams-specialization h6 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.endocare-hospital-teams-specialization ul {
+    padding-left: 18px;
+}
+
+.endocare-hospital-teams-specialization li {
+    font-size: 13px;
+    margin-bottom: 6px;
+    color: #495464;
+}
+
+.endocare-hospital-teams-btn {
+    background: #C62828;
+    color: #ffffff;
+    padding: 10px 22px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 8px 18px rgba(220, 38, 38, 0.25);
+    transition: 0.3s ease;
+}
+
+.endocare-hospital-teams-btn:hover {
+    background: #b71c1c;
+}
+
+.endocare-hospital-teams-features {
+    background: #f3e9e9;
+    padding: 50px 40px;
+    border-radius: 30px;
+}
+
+.endocare-hospital-teams-feature-icon {
+    width: 55px;
+    height: 55px;
+    margin: 0 auto 15px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #C62828;
+    font-size: 22px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+.endocare-hospital-teams-feature-box h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1e293b;
+}
+
+.endocare-hospital-teams-feature-box p {
+    font-size: 14px;
+    color: #6b7280;
+    margin: 0;
+}
+
+
+/* contact us section css  */
+.endocare-hospital-contactus-subtitle {
+    font-size: 13px;
+    font-weight: 700;
+    color: #C62828;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.endocare-hospital-contactus-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.endocare-hospital-contactus-description {
+    font-size: 14px;
+    color: #6c757d;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.endocare-hospital-contactus-card {
+    background: #f1f2f4;
+    padding: 20px;
+    border-radius: 18px;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.endocare-hospital-contactus-icon {
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #C62828;
+    font-size: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.endocare-hospital-contactus-card h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.endocare-hospital-contactus-card p {
+    font-size: 14px;
+    color: #6b7280;
+    margin: 0;
+    font-weight: 500;
+}
+
+.endocare-hospital-contactus-map {
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    margin-bottom: 0px;
+}
+
+.endocare-hospital-contactus-card-eeeeeee {
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+
+    .endocare-hospital-footer-section {
+        padding: 40px 0 20px;
+        text-align: center;
+    }
+
+    .endocare-hospital-footer-logo h5 {
+        font-size: 13px;
+    }
+
+    .endocare-hospital-footer-desc {
+        font-size: 13px;
+        margin-top: 12px;
+    }
+
+    .endocare-hospital-footer-title {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .endocare-hospital-footer-links a {
+        font-size: 13px;
+    }
+
+    .endocare-hospital-footer-contact p {
+        font-size: 13px;
+    }
+
+    .endocare-hospital-footer-bottom p {
+        font-size: 12px;
+    }
+
+    .endocare-hospital-footer-policy {
+        font-size: 12px;
+        display: block;
+        margin-top: 6px;
+    }
+
+    .endocare-hospital-footer-divider {
+        margin: 20px 0;
+    }
+
+    .endocare-hospital-footer-scrolltop {
+        position: static;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .endocare-trust {
+        margin: 25px 0;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .endocare-trust-text p {
+        font-size: 12px;
+    }
+
+    .endocare-success-card {
+        left: 0%;
+    }
+
+    .btn-book {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .btn-call {
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+
+    .endocare-hero-title {
+        font-size: 26px;
+    }
+
+    .endocare-badge {
+        font-size: 10px;
+        gap: 5px;
+    }
+
+    .endocare-hero-desc {
+        color: #000;
+        font-size: 14px;
+        margin-top: 10px;
+        max-width: 500px;
+    }
+
+    .endocare-hero-section {
+        padding: 20px 0 !important;
+    }
+
+    .endocare-hero-left {
+        text-align: center;
+    }
+
+    .endocare-hero-buttons {
+        justify-content: center;
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    .endocare-hospital-footer-logo {
+        justify-content: center !important;
+    }
+
+    /* about section respoanive  */
+    .endocare-hospital-aboutus-section {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .endocare-hospital-aboutus-image-wrapper {
+        border-radius: 15px;
+    }
+
+    .endocare-hospital-aboutus-image {
+        border-radius: 20px;
+        padding: 15px;
+    }
+
+    .endocare-hospital-aboutus-subtitle {
+        font-size: 12px;
+    }
+
+    .endocare-hospital-aboutus-title {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+
+    .endocare-hospital-aboutus-description {
+        font-size: 14px;
+    }
+
+    .endocare-hospital-aboutus-feature {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 18px;
+        gap: 2px;
+    }
+
+    .endocare-hospital-aboutus-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .endocare-hospital-aboutus-feature h6 {
+        font-size: 14px;
+    }
+
+    .endocare-hospital-aboutus-feature p {
+        font-size: 13px;
+    }
+
+    /* service section css responsive  */
+    .endocare-hospital-services-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .endocare-hospital-services-header {
+        margin-bottom: 30px;
+    }
+
+    .endocare-hospital-services-subtitle {
+        font-size: 11px;
+        letter-spacing: 0;
+        margin-bottom: 6px;
+        text-align: center;
+    }
+
+    .endocare-hospital-services-title {
+        font-size: 22px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .endocare-hospital-services-card {
+        padding: 20px 12px;
+    }
+
+    .endocare-hospital-services-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .endocare-hospital-services-card-title {
+        font-size: 13px;
+    }
+
+    .endocare-hospital-services-card-text {
+        font-size: 12px;
+    }
+
+    .endocare-hospital-services-consultation {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .endocare-hospital-services-consult-title {
+        font-size: 14px;
+    }
+
+    .endocare-hospital-services-consult-text {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .endocare-hospital-services-consult-btn {
+        width: 100%;
+        font-size: 13px;
+        padding: 10px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .endocare-hospital-teams-info-box-totalsss {
+        flex-direction: column;
+    }
+
+    /* contact us section css responsive */
+    .endocare-hospital-contactus-subtitle {
+        font-size: 11px;
+        text-align: center;
+        letter-spacing: 0.5px;
+    }
+
+    .endocare-hospital-contactus-title {
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .endocare-hospital-contactus-description {
+        font-size: 13px;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .endocare-hospital-contactus-card {
+        padding: 15px;
+        border-radius: 14px;
+        flex-direction: column;
+        text-align: center;
+        gap: 0px;
+    }
+
+    .endocare-hospital-contactus-icon {
+        margin: 0 auto 10px auto;
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        font-size: 16px;
+    }
+
+    .endocare-hospital-contactus-card h6 {
+        font-size: 13px;
+        margin-top: 0;
+    }
+
+    .endocare-hospital-contactus-card p {
+        font-size: 12px;
+    }
+
+    .endocare-hospital-contactus-map iframe {
+        height: 220px;
+    }
+
+    /* our team section css responsive  */
+    .endocare-hospital-teams-section {
+        padding: 40px 15px;
+    }
+
+    .endocare-hospital-teams-title {
+        font-size: 20px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .endocare-hospital-teams-subtitle {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .endocare-hospital-teams-qualification {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .endocare-hospital-teams-description {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .endocare-hospital-teams-image {
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .endocare-hospital-teams-experience-badge {
+        bottom: 15px;
+        left: 15px;
+        padding: 10px 14px;
+    }
+
+    .endocare-hospital-teams-exp-number {
+        font-size: 14px;
+    }
+
+    .endocare-hospital-teams-exp-text {
+        font-size: 10px;
+    }
+
+    .endocare-hospital-teams-info-box {
+        padding: 18px;
+        margin-bottom: 15px;
+    }
+
+    .endocare-hospital-teams-info-box h6 {
+        font-size: 13px;
+    }
+
+    .endocare-hospital-teams-info-box p {
+        font-size: 11px;
+    }
+
+    .endocare-hospital-teams-feature-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        margin: 15px auto;
+    }
+
+    .endocare-hospital-teams-feature-box h6 {
+        font-size: 14px;
+    }
+
+    .endocare-hospital-teams-feature-box p {
+        font-size: 12px;
+    }
+
+    .endocare-hospital-teams-features {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .endocare-hospital-teams-btn {
+        padding: 8px 18px;
+        font-size: 13px;
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+    }
+
+}
+
+
+@media (min-width: 577px) and (max-width: 991px) {
+
+    .endocare-hospital-footer-section {
+        padding: 50px 0 25px;
+        text-align: left;
+    }
+
+    .endocare-hospital-footer-logo h5 {
+        font-size: 14px;
+    }
+
+    .endocare-hospital-footer-desc {
+        font-size: 14px;
+    }
+
+    .endocare-hospital-footer-title {
+        font-size: 15px;
+    }
+
+    .endocare-hospital-footer-links a {
+        font-size: 14px;
+    }
+
+    .endocare-hospital-footer-contact p {
+        font-size: 14px;
+    }
+
+    .endocare-hospital-footer-bottom p {
+        font-size: 13px;
+    }
+
+    .endocare-hospital-footer-policy {
+        font-size: 13px;
+    }
+
+    .endocare-hospital-footer-scrolltop {
+        right: 15px;
+        bottom: 15px;
+    }
+
+    .endocare-trust {
+        margin: 25px 0;
+        justify-content: start;
+    }
+
+    .endocare-success-card {
+        left: 0%;
+    }
+
+    .endocare-hero-desc {
+        max-width: 100%;
+    }
+
+    .endocare-hero-buttons {
+        justify-content: start;
+    }
+
+    .endocare-hero-section {
+        padding: 20px 0 !important;
+    }
+
+    /* about section respoanive  */
+    .endocare-hospital-aboutus-section {
+        padding: 50px 0;
+    }
+
+    .endocare-hospital-aboutus-image-wrapper {
+        border-radius: 18px;
+    }
+
+    .endocare-hospital-aboutus-image {
+        border-radius: 25px;
+        padding: 18px;
+    }
+
+    .endocare-hospital-aboutus-subtitle {
+        font-size: 13px;
+    }
+
+    .endocare-hospital-aboutus-title {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .endocare-hospital-aboutus-description {
+        font-size: 15px;
+    }
+
+    .endocare-hospital-aboutus-feature {
+        padding: 16px;
+    }
+
+    .endocare-hospital-aboutus-icon {
+        width: 42px;
+        height: 42px;
+        font-size: 19px;
+    }
+
+    .endocare-hospital-aboutus-feature h6 {
+        font-size: 15px;
+    }
+
+    .endocare-hospital-aboutus-feature p {
+        font-size: 14px;
+    }
+
+
+    /* our team section css responsive  */
+    .endocare-hospital-teams-title {
+        font-size: 24px;
+    }
+
+    .endocare-hospital-teams-description {
+        font-size: 13px;
+    }
+
+    .endocare-hospital-teams-qualification {
+        font-size: 13px;
+    }
+
+    .endocare-hospital-teams-info-box {
+        padding: 20px;
+    }
+
+    .endocare-hospital-teams-info-box h6 {
+        font-size: 13px;
+    }
+
+    .endocare-hospital-teams-info-box p {
+        font-size: 12px;
+    }
+
+    .endocare-hospital-teams-feature-box h6 {
+        font-size: 15px;
+    }
+
+    .endocare-hospital-teams-feature-box p {
+        font-size: 13px;
+    }
+
+    .endocare-hospital-teams-features {
+        padding: 40px 25px;
+        border-radius: 24px;
+    }
+
+    .endocare-hospital-teams-image-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .endocare-hospital-teams-exp-number {
+        font-size: 16px;
+    }
+
+    .endocare-hospital-teams-exp-text {
+        font-size: 11px;
+    }
+
+    /* service section css responsive  */
+    .endocare-hospital-services-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .endocare-hospital-services-subtitle {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .endocare-hospital-services-title {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .endocare-hospital-services-card {
+        padding: 22px 14px;
+    }
+
+    .endocare-hospital-services-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .endocare-hospital-services-card-title {
+        font-size: 14px;
+    }
+
+    .endocare-hospital-services-card-text {
+        font-size: 13px;
+    }
+
+    .endocare-hospital-services-consultation {
+        padding: 22px;
+    }
+
+    .endocare-hospital-services-consult-title {
+        font-size: 15px;
+    }
+
+    .endocare-hospital-services-consult-text {
+        font-size: 13px;
+    }
+
+    .endocare-hospital-services-consult-btn {
+        font-size: 13px;
+        padding: 9px 20px;
+    }
+
+    /* contact us section css responsive */
+    .endocare-hospital-contactus-subtitle {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .endocare-hospital-contactus-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .endocare-hospital-contactus-description {
+        font-size: 13px;
+        max-width: 480px;
+        text-align: center;
+    }
+
+    .endocare-hospital-contactus-card {
+        padding: 18px;
+        border-radius: 16px;
+    }
+
+    .endocare-hospital-contactus-icon {
+        width: 42px;
+        height: 42px;
+        min-width: 42px;
+        font-size: 18px;
+    }
+
+    .endocare-hospital-contactus-card h6 {
+        font-size: 14px;
+    }
+
+    .endocare-hospital-contactus-card p {
+        font-size: 13px;
+    }
+
+    .endocare-hospital-contactus-map iframe {
+        height: 260px;
+    }
+}
